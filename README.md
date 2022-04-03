@@ -7,8 +7,10 @@ NOTE: The zip data files are large (approx. 0.8GB)
 
 The dataset contains the synthetic degradation data for NMC and NCA cells. The data are generated with the OCV model. 
 	
-  NMC: In Syn_NMC_4dm file, there are the degradation modes (DMs) and the corresponding pseudo OCVs (discharge at 0.3C); The four DMs are LLI, LAMdeNE, LAMdePE, and RI, respectively.In Syn_NMC_path1 file, there are the DMs for the aging path I, and the corresponding pseudo OCVs (discharge at 0.3C). The six DMs are LLI, LAMliNE, LAMdeNE, LAMdePE, LAMliPE, and RI, respectively.
+  NMC: In Syn_NMC_4dm file, there are the degradation modes (DMs) and the corresponding pseudo OCVs (discharge at 0.3C); The four DMs are LLI, LAMdeNE, LAMdePE, and RI, respectively; This data is used for the CNN training. In Syn_NMC_path1 file, there are the DMs for the aging path I, and the corresponding pseudo OCVs (discharge at 0.3C). The six DMs are LLI, LAMliNE, LAMdeNE, LAMdePE, LAMliPE, and RI, respectively; This data is used for the validation of the proposed diagnostic method.
 	
-  NCA: In Syn_NCA_4dm file, there are the DMs and the corresponding pseudo OCVs (Charge at 1/24C); The four DMs are LLI, LAMdeNE, LAMdePE, and RI, respectively. In Syn_NCA_path3 file, there are the DMs for aging path III, and the corresponding pseudo OCVs (Charge at 1/24C). The six DMs are LLI, LAMliNE, LAMdeNE, LAMdePE, LAMliPE, and RI, respectively.  
+  NCA: In Syn_NCA_4dm file, there are the DMs and the corresponding pseudo OCVs (Charge at 1/24C); The four DMs are LLI, LAMdeNE, LAMdePE, and RI, respectively; This data is used for the CNN training. In Syn_NCA_path3 file, there are the DMs for aging path III, and the corresponding pseudo OCVs (Charge at 1/24C). The six DMs are LLI, LAMliNE, LAMdeNE, LAMdePE, LAMliPE, and RI, respectively; This data is used for the validation of the proposed diagnostic method.  
+  
+Please read the corresponding paper to find the details about the training data generation and the assumed aging paths. 
                  
 Thanks for your interest.                 
